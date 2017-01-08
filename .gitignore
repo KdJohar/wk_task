@@ -1,0 +1,8 @@
+
+*.xml
+
+*.iml
+
+*.pyc
+
+wk_task/local_settings.py
