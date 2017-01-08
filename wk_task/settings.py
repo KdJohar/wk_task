@@ -133,10 +133,13 @@ DEBUG_TOOLBAR_PANELS = [
     'debug_toolbar.panels.redirects.RedirectsPanel',
 ]
 
+
 def show_toolbar(request):
     return True
+
+
 SHOW_TOOLBAR_CALLBACK = show_toolbar
-INTERNAL_IPS = ('127.0.0.1')
+
 try:
     from local_settings import *
 except ImportError:
